@@ -1,1 +1,33 @@
-body{background:#fff;color:#333}a:link,a:visited{color:#666}a:active,a:hover{color:#000}p,blockquote,li,pre{line-height:1.5em}
+body { background: #cccccc; color: #333333; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+
+a { text-decoration: none; }
+a:link, a:visited { color: #666666; }
+a:active, a:hover { color: black; }
+
+p, blockquote, ul { line-height: 1.5em; }
+
+blockquote { border-left: 5px solid #eeeeee; margin-left: -5px; padding-left: 1em; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+nav { padding: 0 10%; }
+nav ul { margin: 0; padding: 0; list-style: none; }
+nav ul:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+nav ul li { display: inline; }
+nav ul li:last-child:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+nav ul li:first-child a { margin-left: -2.5em; }
+nav ul li a { background: #dddddd; display: block; float: left; padding: 1em 2.5em; margin-right: 2px; }
+nav ul li a:active, nav ul li a:hover { background: #eeeeee; }
+
+header { background: #333333; color: #eeeeee; padding: 0 10%; padding-top: 2em; padding-bottom: 2em; }
+
+.contain { background: white; padding: 0 10%; padding-top: 3em; padding-bottom: 3em; }
+.contain h1 { font-size: 1.5em; }
+.contain h2 { font-size: 1.25em; }
+.contain h3 { font-size: 1.25em; font-style: italic; }
+.contain h4 { font-size: 1.25em; font-style: italic; font-weight: normal; }
+.contain h5 { font-size: 1em; font-style: italic; }
+.contain h6 { font-size: 1em; }
+.contain ul { list-style: circle; }
+
+footer { padding: 0 10%; }
